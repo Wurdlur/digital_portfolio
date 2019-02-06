@@ -3,16 +3,12 @@ var pug = require('pug');
 var path = require('path');
 var config = require('./config.json');
 var menu = require('./menu.json');
-var compression = require('compression');
-var helmet = require('helmet');
 
 var app = express();
 
 app.set('view engine', 'pug');
 app.set('views', __dirname + '/views');
 app.use(express.static(path.join(__dirname, '/public')));
-app.use(compression());
-app.use(helmet());
 
 app.get('/', function(req, res) {
   res.render('index');
