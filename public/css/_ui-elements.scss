@@ -37,6 +37,13 @@ header {
         color: #FFF;
         font-size: 25px;
         font-family: 'Audiowide', cursive;
+        .nav-logo {
+            float: left;
+            height: 35px;
+            width: 35px;
+            padding-top: 5px;
+            padding-left: 10px;
+        }
     }
 }
 
@@ -44,7 +51,7 @@ header {
     text-align: center;
     width: 70%;
     background: #FFF;
-    height: 500px;
+    min-height: 500px;
     margin: auto;
     margin-top: 100px;
     display: flex;
