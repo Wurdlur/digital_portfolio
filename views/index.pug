@@ -4,25 +4,6 @@ block vars
     -var title = "Portfolio | Home"
 
 block content
-    div(class='info-box top')
-        .col
-            .row
-                p(id='infoName') Johnathan Auchterlonie
-                p(id='infoTitle') 
-                    em Full Stack Developer
-                hr
-            .row
-                p(id='infoMsg') Welcome to my digital portfolio. Learn about me by
-                    | taking a look at my 
-                    a(href='/projects') projects
-                    |  and my aquired skills/expeirences. If
-                    |  you have any questions feel free to "contact" me anytime.
-                p(id='infoMsg') I am a full stack devloper that likes to spend his
-                    |  time interacting and exploring with as many web technologies as I
-                    |  can. To learn more see my 
-                    a(href='/about') about page
-                    |  for more information.
-        div(class='col' id='welcomeImg')
     div(class='info-box')
         div(class='col' id='projectImg')
         .col
@@ -44,5 +25,22 @@ block content
                     |  my current of future endeavors check out my 
                     a(href='https://www.linkedin.com/in/johnathan-auchterlonie-ba23aba8/') LinkedIn
                     | .
-    div(class='info-box bottom' id='resume')
-        <iframe src="/pdf/Resume.pdf" style="width:100%;"></iframe>
+    div(class='info-box top')
+        .col
+            .row
+                p(id='infoName') Johnathan Auchterlonie
+                p(id='infoTitle') 
+                    em Full Stack Developer
+                hr
+            .row
+                p(id='infoMsg') Welcome to my digital portfolio. Learn about me by
+                    | taking a look at my 
+                    a(href='/projects') projects
+                    |  and my aquired skills/expeirences. If
+                    |  you have any questions feel free to "contact" me anytime.
+                p(id='infoMsg') I am a full stack devloper that likes to spend his
+                    |  time interacting and exploring with as many web technologies as I
+                    |  can. To learn more see my 
+                    a(href='/about') about page
+                    |  for more information.
+        div(class='col' id='welcomeImg')
